@@ -28,9 +28,6 @@ export default function Layout({ children, home }) {
       </Head>
       <Navbar></Navbar>
 
-      <header className={styles.header}>
-
-      </header>
       <main>{children}</main>
 
       
