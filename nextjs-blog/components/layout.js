@@ -3,9 +3,10 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
+import Navbar from './navbar'
 
-const name = 'Your Name'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'voldy'
+export const siteTitle = 'howdy 🤠'
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +15,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="me struggling to build something haha okay"
         />
         <meta
           property="og:image"
@@ -25,12 +26,15 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <Navbar></Navbar>
+
+      {/* <header className={styles.header}>
+
         {home ? (
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/profile.jpeg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
@@ -59,7 +63,7 @@ export default function Layout({ children, home }) {
             </h2>
           </>
         )}
-      </header>
+      </header> */}
       <main>{children}</main>
       {!home && (
         <div className={styles.backToHome}>
