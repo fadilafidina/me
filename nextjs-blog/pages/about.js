@@ -1,15 +1,13 @@
-import Link from 'next/link'
 import Head from 'next/head'
-import Script from 'next/script'
 import Layout from '../components/layout'
 
 export default function FirstPost() {
     return <Layout>
     <Head>
-        <title>about me</title>
+        <title>about</title>
     </Head>
 
-    <h1 className="text-3xl font-bold underline">
+    <h1 className="text-3xl">
       Welcome. It is nice to see you.
     </h1>
 

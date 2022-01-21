@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Navbar from './navbar'
+import Navbar from './Navbar'
 
 export const siteTitle = 'howdy 🤠'
 
@@ -13,9 +13,9 @@ export default function Layout({ children, home }) {
           content="me struggling to build something haha okay"
         />
       </Head>
-      <Navbar></Navbar>
+      <Navbar/>
 
-      <div className="p-12 grid justify-center">
+      <div className="p-12">
       <main>{children}</main>
       </div>
     </div>
