@@ -1,12 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
-import { useRouter } from "next/router";
 
 export default function Navbar() {
     return (
-        <div class="font-mono">
-            <div class="flex flex-row">
-                <div class="basis-1/4">
+        <div className="font-mono">
+            <div className="flex flex-row">
+                <div className="basis-1/4">
                     <Link href="/">
                         <a>
                             home
@@ -21,16 +20,6 @@ export default function Navbar() {
                         </a>
                     </Link>
                 </div>
-
-                <div>
-                    <Link href="/blog">
-                        <a>
-                            blog
-                        </a>
-                    </Link>
-                </div>
-
-
                 <div>
                     <Link href="/projects">
                         <a>
