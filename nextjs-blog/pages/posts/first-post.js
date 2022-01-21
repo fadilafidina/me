@@ -15,6 +15,10 @@ export default function FirstPost() {
           console.log(`script loaded correctly, window.FB has been populated`)
         }
       />
+
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
     <h1>
         <Link href='/'><a>Back home</a></Link>
     </h1>
