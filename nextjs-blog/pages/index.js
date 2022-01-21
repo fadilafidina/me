@@ -9,14 +9,11 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
 
-      <div className="pt-6 align-middle container mx-auto min-h-0">
         <h1 className='text-2xl'>Hi.</h1>
-
         <p>
           Some description here.
           More words... idk how to center this yet...
         </p>
-      </div>
 
       <div className="flex min-h-screen justify-center items-center">
         <div className="max-w-xs rounded overflow-hidden shadow-lg my-2">

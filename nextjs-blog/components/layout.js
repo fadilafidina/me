@@ -10,7 +10,7 @@ export const siteTitle = 'howdy 🤠'
 
 export default function Layout({ children, home }) {
   return (
-    <div className={styles.container}>
+    <div className='place-items-center h-screen pt-6'>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -28,8 +28,9 @@ export default function Layout({ children, home }) {
       </Head>
       <Navbar></Navbar>
 
+      <div className="pt-6 align-middle container mx-auto min-h-0">
       <main>{children}</main>
-
+      
       
       {!home && (
         <div className={styles.backToHome}>
@@ -38,6 +39,7 @@ export default function Layout({ children, home }) {
           </Link>
         </div>
       )}
+      </div>
     </div>
   )
 }
