@@ -12,7 +12,7 @@ export default function FirstPost() {
     </h1>
 
     <div className='pt-4'>
-        Insert some lorem ipsum.
+        Insert some lorem ipsum. I really like pizza.
     </div>
     </Layout>
 }
