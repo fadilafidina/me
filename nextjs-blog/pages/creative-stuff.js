@@ -1,6 +1,4 @@
-import Link from 'next/link'
 import Head from 'next/head'
-import Script from 'next/script'
 import Layout from '../components/layout'
 
 export default function FirstPost() {
@@ -8,13 +6,11 @@ export default function FirstPost() {
     <Head>
         <title>projects</title>
     </Head>
-
-    <h1 className="text-3xl font-bold underline">
-      I like to make art in different forms.
+    <h1 className="text-3xl">
+      It is nice to see you.
     </h1>
-
-    <div>
-        Coming soon.
+    <div className='pt-4'>
+        Insert some lorem ipsum.
     </div>
     </Layout>
 }
