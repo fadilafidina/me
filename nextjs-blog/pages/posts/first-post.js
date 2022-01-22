@@ -17,7 +17,7 @@ export default function FirstPost() {
       />
 
     <h1 className="text-3xl font-bold underline">
-      Hello world!
+      Hello world! Some changes to get a deployment going
     </h1>
     <h1>
         <Link href='/'><a>Back home</a></Link>
