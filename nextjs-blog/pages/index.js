@@ -7,47 +7,6 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-
-      <div class=" min-h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]">
-      <div className="py-64 min-h-screen grid justify-center">
-
-        
-
-        <div className='py-1'>
-
-        <h1 className="text-3xl font-bold">
-          Hi there!
-        </h1>
-          My name is la di da di da.
-          <br/>
-
-          Welcome to my space on the internet.
-          <br/>
-          Enjoy your stay!
-
-        </div>
-      </div>
-</div>
-
-      <div className="py-64 min-h-screen">
-
-        <h1 className="text-3xl font-bold">
-          Hi there!
-        </h1>
-
-        <div className='py-2'>
-          My name is la di da di da.
-
-          Welcome to my space on the internet.
-
-        </div>
-
-        <div className='py-2'>
-          Enjoy your stay!
-        </div>
-
-      </div>
-
       <div className="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-900"></div>
 
       <div className="min-h-screen">
