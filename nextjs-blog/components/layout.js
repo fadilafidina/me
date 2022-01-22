@@ -15,9 +15,9 @@ export default function Layout({ children, home }) {
       </Head>
       <Navbar/>
 
-      <div className="p-12">
+      {/* <div className="p-12"> */}
       <main>{children}</main>
-      </div>
+      {/* </div> */}
     </div>
   )
 }
