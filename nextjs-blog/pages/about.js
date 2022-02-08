@@ -8,7 +8,7 @@ export default function FirstPost() {
         <title>about</title>
     </Head>
 
-    <h1 className="text-3xl">
+    <h1 className="text-3xl text-indigo-700">
       It is nice to see you.
     </h1>
 

@@ -31,6 +31,10 @@ export default function Layout({ children, home }) {
           </div>
         </div>
 
+        <div className="p-12 min-h-screen">
+            <main>{children}</main>
+          </div>
+
       </div>
         : <>
           <Navbar />
