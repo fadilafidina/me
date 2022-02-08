@@ -32,11 +32,11 @@ export default function Home() {
         </div>
 
         <div className='pt-4 flex'>
-          Aside from code, I love to bake bread, cakes, loafs, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
+          Aside from code, I love to bake bread, cakes, loaves, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
         </div>
       </div>
 
-      <Footer></Footer>
+      <Footer/>
     </Layout>
   )
 }
