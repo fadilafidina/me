@@ -6,6 +6,9 @@ module.exports = {
   theme: {
     extend: {},
     colors: require('tailwindcss/colors'),
+    fontFamily: {
+      'sans': ['Lato', 'ui-sans-serif', 'system-ui'],
+    }
   },
   plugins: [],
 }

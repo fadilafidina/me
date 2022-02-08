@@ -3,7 +3,7 @@ import React, { useState } from "react";
 export default function Navbar() {
     return (
 
-        <div>
+        <div className='p-24'>
             {/* Adapted from https://tailwind-elements.com/docs/standard/navigation/footer/ */}
             <footer class="text-center lg:text-left ">
                 <div class="flex justify-center items-center lg:justify-between">

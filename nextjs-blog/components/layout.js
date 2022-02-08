@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 export const siteTitle = 'dila tries to code!'
 
@@ -13,29 +14,38 @@ export default function Layout({ children, home }) {
           content="me struggling to build something haha okay"
         />
       </Head>
-      {home ? <div class=" min-h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]">
-        <Navbar />
+      {home ?
+        <>
+        <div className='min-h-screen'>
+          {/* <div class=" h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]"> */}
+            <Navbar />
 
-        <div className="py-40 min-h-screen grid justify-center">
-          <div className='py-1'>
-            <h1 className="text-3xl font-bold">
-              Hi there! ✨
-            </h1>
-            My name is Fadila Fidina, or Dila for short.
-            <br />
-            Welcome to my space on the internet.
-            <br />
-            I drew this cute background!
-            <br />
-            Enjoy your stay!
+            <div className="py-36 min-h-screen grid justify-center">
+              <div className='py-1 text-gray-800'>
+                <h1 className="text-4xl font-bold">
+                  Hi, I'm <span className='text-indigo-500'>Fadila Fidina</span>! ✨
+                </h1>
+
+                <div className="text-sm">
+                  (They say my name has a nice ring to it.)
+                </div>
+
+                <div className="text-xl">
+                  I am a full-stack software engineer.
+                </div>
+              </div>
+            </div>
+
+
+
           </div>
-        </div>
 
-        <div className="p-12 min-h-screen">
+          <div className="p-48 text-gray-800 text-lg">
             <main>{children}</main>
           </div>
 
-      </div>
+          <Footer/>
+        </>
         : <>
           <Navbar />
           <div className="p-12">

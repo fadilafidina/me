@@ -10,7 +10,8 @@ export default function Home() {
       </Head>
       {/* <div className="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-900"></div> */}
 
-      <div className='min-h-screen'>
+      {/* <div className='min-h-screen'> */}
+      <div>
         <h1 className="text-3xl font-bold">
           It is nice to see you.
         </h1>
@@ -31,12 +32,10 @@ export default function Home() {
           I built this site using Next.js, Tailwind CSS, React and deployed it using Vercel.
         </div>
 
-        <div className='pt-4 flex'>
+        <div className='pt-4'>
           Aside from code, I love to bake bread, cakes, loaves, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
         </div>
       </div>
-
-      <Footer/>
     </Layout>
   )
 }
