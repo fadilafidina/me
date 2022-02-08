@@ -40,7 +40,7 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="p-48 text-gray-800 text-lg">
+          <div className="px-48 text-gray-800 text-lg">
             <main>{children}</main>
           </div>
 

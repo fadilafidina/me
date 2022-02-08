@@ -11,21 +11,23 @@ export default function Home() {
       {/* <div className="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-900"></div> */}
 
       {/* <div className='min-h-screen'> */}
-      <div>
+
+      {/******* ABOUT SECTION *******/}
+      <div className='text-xl'>
         <h1 className="text-3xl font-bold">
           It is nice to see you.
         </h1>
 
         <div className='pt-4'>
-          My name is Fadila Fidina.
+          My name is <span className='text-indigo-500'>Fadila Fidina</span>.
         </div>
 
         <div className='pt-4'>
-          I am a full-stack software engineer, and I love creating and building all sorts of things.
+          I am a <span className='text-indigo-500'>full-stack software engineer </span>, and I love creating and building all sorts of things.
         </div>
 
         <div className='pt-4'>
-          From software, to things that are edible, to websites, to paintings, I love to bring things to life and to share them with the world around me.
+          From software, to things that are edible, to webapps and paintings, I love to bring things to life and to share them with the world around me.
         </div>
 
         <div className='pt-4'>
@@ -33,9 +35,38 @@ export default function Home() {
         </div>
 
         <div className='pt-4'>
-          Aside from code, I love to bake bread, cakes, loaves, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
+          Aside from code, I love to <span className='text-indigo-500'>bake</span> bread, cakes, loaves, buns, pizzas, and anything that could go into an oven.
+        </div>
+
+        <div className='pt-4'>
+          I also like to <span className='text-indigo-500'>draw and paint</span>!
         </div>
       </div>
+
+      {/******* PROJECTS SECTION *******/}
+      <div className='pt-96 text-xl'>
+        <h1 className="text-3xl font-bold">
+          Times where I wrote some code
+        </h1>
+
+        <div className='pt-4'>
+          Some cards...
+        </div>
+      </div>
+
+      {/******* PROJECTS SECTION *******/}
+      <div className='py-96 text-xl'>
+        <h1 className="text-3xl font-bold">
+          Times where I'm proud of my creative self
+        </h1>
+
+        <div className='pt-4'>
+          Some cards...
+        </div>
+      </div>
+
+
+
     </Layout>
   )
 }
