@@ -35,11 +35,11 @@ export default function Home() {
         </div>
 
         <div className='pt-4'>
-          Aside from code, I love to <span className='text-indigo-500'>bake</span> bread, cakes, loaves, buns, pizzas, and anything that could go into an oven.
+          Aside from code, I love to <a href='https://www.instagram.com/matchadou/' className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>bake bread, cakes, loaves, buns, pizzas</a>, and anything that could go into an oven.
         </div>
 
         <div className='pt-4'>
-          I also like to <span className='text-indigo-500'>draw and paint</span>!
+          I also like to <a href='https://www.instagram.com/dilajournals/' className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>draw and paint</a>!
         </div>
       </div>
 

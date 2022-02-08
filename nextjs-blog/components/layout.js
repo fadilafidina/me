@@ -23,10 +23,10 @@ export default function Layout({ children, home }) {
             <div className="py-36 min-h-screen grid justify-center">
               <div className='py-1 text-gray-800'>
                 <h1 className="text-4xl font-bold">
-                  Hi, I'm <span className='text-indigo-500'>Fadila Fidina</span>! ✨
+                  Hi, I'm <span className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>Fadila Fidina</span>! ✨
                 </h1>
 
-                <div className="text-sm">
+                <div className="text-sm pt-6">
                   (They say my name has a nice ring to it.)
                 </div>
 
