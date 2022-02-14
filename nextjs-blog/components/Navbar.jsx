@@ -5,7 +5,7 @@ import React, { useState } from "react";
 export default function Navbar() {
     return (
         // <div className="px-4 sticky top-0 z-50 bg-[url('../public/images/bg1.jpg')]">
-        <div className="font-mono px-4 pt-7">
+        <div className="font-mono px-4 pt-7 text-lg">
             <div className="px-8 text-indigo-700 hover:text-black w-30">
                 <Link href="/">
                     <a>

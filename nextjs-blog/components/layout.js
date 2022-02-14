@@ -6,7 +6,7 @@ export const siteTitle = 'dila tries to code!'
 
 export default function Layout({ children, home }) {
   return (
-    <div className=''>
+    <div className='bg-indigo-100'>
       <Head>
         <link rel="icon" href="https://31.media.tumblr.com/5a4a522d4da9de9d3347d24bc1cac2f0/tumblr_inline_my5fmtNKRZ1rnr4eb.gif" />
         <meta
@@ -16,14 +16,18 @@ export default function Layout({ children, home }) {
       </Head>
       {home ?
         <>
-        <div className='min-h-screen'>
-          {/* <div class=" h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]"> */}
+          <div className='min-h-screen'>
+            {/* <div class=" h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]"> */}
             <Navbar />
 
             <div className="py-36 min-h-screen grid justify-center">
               <div className='py-1 text-gray-800'>
                 <h1 className="text-4xl font-bold">
-                  Hi, I'm <span className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>Fadila Fidina</span>! ✨
+                  Hi, I'm <span className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy decoration-gradient-to-r '>
+                    {/* <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"> */}
+                    Fadila Fidina
+                    {/* </span> */}
+                  </span>! ✨
                 </h1>
 
                 <div className="text-sm pt-6">
@@ -40,17 +44,18 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="px-48 text-gray-800 text-lg">
+          <div className="px-48 text-gray-900 text-lg">
             <main>{children}</main>
           </div>
 
-          <Footer/>
+          <Footer />
         </>
         : <>
           <Navbar />
-          <div className="p-12">
+          <div className="py-12 px-48 text-gray-900 text-lg min-h-screen">
             <main>{children}</main>
           </div>
+          <Footer />
         </>}
     </div>
   )

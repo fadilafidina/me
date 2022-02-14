@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Footer from '../components/Footer'
+import Link from "next/link";
+
 
 export default function Home() {
   return (
@@ -32,6 +34,10 @@ export default function Home() {
 
         <div className='pt-4'>
           I built this site using Next.js, Tailwind CSS, React and deployed it using Vercel.
+        </div>
+
+        <div className='pt-4'>
+          Read a bit more about me <span className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'><Link href="/about">here</Link></span>.
         </div>
 
         <div className='pt-4'>
