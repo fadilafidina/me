@@ -64,7 +64,7 @@ export default function FirstPost() {
 
         <div className='pt-4'>
             High school ended, and it was time to pick a university course.
-            I knew I love making things <span aria-label='sparkle emoji'>✨</span> pretty <span aria-label='sparkle emoji'>✨</span> and I think websites are cool.
+            I knew I loved making things <span aria-label='sparkle emoji'>✨</span> pretty <span aria-label='sparkle emoji'>✨</span> and I thought websites were cool.
             I was also really into graphic design, so maybe something where I can be creative while creating web pages?
         </div>
 

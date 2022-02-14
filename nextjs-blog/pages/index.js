@@ -16,7 +16,7 @@ export default function Home() {
 
       {/******* ABOUT SECTION *******/}
       <div className='text-xl'>
-        <h1 className="text-3xl font-bold">
+        <h1 className="text-3xl text-indigo-700">
           It is nice to see you.
         </h1>
 
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       {/******* PROJECTS SECTION *******/}
-      <div className='pt-96 text-xl'>
+      {/* <div className='pt-96 text-xl'>
         <h1 className="text-3xl font-bold">
           Times where I wrote some code
         </h1>
@@ -58,10 +58,10 @@ export default function Home() {
         <div className='pt-4'>
           Some cards...
         </div>
-      </div>
+      </div> */}
 
       {/******* PROJECTS SECTION *******/}
-      <div className='py-96 text-xl'>
+      {/* <div className='py-96 text-xl'>
         <h1 className="text-3xl font-bold">
           Times where I'm proud of my creative self
         </h1>
@@ -69,7 +69,7 @@ export default function Home() {
         <div className='pt-4'>
           Some cards...
         </div>
-      </div>
+      </div> */}
 
 
 

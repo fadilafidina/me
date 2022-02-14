@@ -6,7 +6,7 @@ export const siteTitle = 'dila tries to code!'
 
 export default function Layout({ children, home }) {
   return (
-    <div className='bg-indigo-100'>
+    <div className='bg-slate-50'>
       <Head>
         <link rel="icon" href="https://31.media.tumblr.com/5a4a522d4da9de9d3347d24bc1cac2f0/tumblr_inline_my5fmtNKRZ1rnr4eb.gif" />
         <meta
