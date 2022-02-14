@@ -7,7 +7,7 @@ export default function CreativeStuff() {
         <Head>
             <title>projects</title>
         </Head>
-        <h1 className="text-3xl text-indigo-700 font-bold">
+        <h1 className="text-3xl text-indigo-700">
             It is nice to see you.
         </h1>
         <div className='pt-4'>
