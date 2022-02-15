@@ -14,9 +14,9 @@ export default function Home() {
       {/* <div className='min-h-screen'> */}
 
       {/******* ABOUT SECTION *******/}
-      <div className='text-xl pb-36'>
+      <div className='pb-36'>
 
-        <h1 className="text-3xl text-indigo-700">
+        <h1 className="text-3xl text-indigo-700 py-6">
           It is nice to see you.
         </h1>
 
@@ -49,9 +49,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='text-xl py-48'>
+      <div className='py-48'>
 
-        <h1 className="text-3xl text-indigo-700">
+        <h1 className="text-3xl text-indigo-700 py-6">
           Please, say hi!
         </h1>
 

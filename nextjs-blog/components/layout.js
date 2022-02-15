@@ -18,7 +18,7 @@ export default function Layout({ children, home }) {
       </Head>
       {home ?
         <>
-          <div className='min-h-screen'>
+          <div className='min-h-screen text-2xl'>
             {/* <div class=" h-screen win-w-screen bg-cover bg-[url('../public/images/bg1.jpg')]"> */}
             <Navbar />
 
@@ -54,7 +54,7 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="px-48 text-gray-900 text-lg min-h-screen" aria-label='main content'>
+          <div className="px-48 text-gray-900 text-2xl min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
 
@@ -62,7 +62,7 @@ export default function Layout({ children, home }) {
         </>
         : <>
           <Navbar />
-          <div className="py-24 px-48 text-gray-900 text-lg min-h-screen" aria-label='main content'>
+          <div className="py-24 px-48 text-gray-900 text-xl min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
           <Footer />

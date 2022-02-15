@@ -7,32 +7,33 @@ export default function FirstPost() {
         <Head>
             <title>about</title>
         </Head>
+        <div className='text-xl'>
+            <h1 className="text-3xl text-indigo-700">
+                It is nice to see you.
+            </h1>
 
-        <h1 className="text-3xl text-indigo-700">
-            It is nice to see you.
-        </h1>
+            <div className='pt-4'>
+                My name is Fadila Fidina.
+            </div>
 
-        <div className='pt-4'>
-            My name is Fadila Fidina.
+            <div className='pt-4'>
+                I am a full-stack software engineer, and I love creating and building all sorts of things.
+            </div>
+
+            <div className='pt-4'>
+                From software, to things that are edible, to websites, to paintings, I love to bring things to life and to share them with the world around me.
+            </div>
+
+            <div className='pt-4'>
+                The stack that I've used with include .NET / C#, React + Redux, JavaScript, TypeScript, GraphQL.
+            </div>
+
+            <div className='pt-4 flex'>
+                Aside from code, I love to bake bread, cakes, loaves, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
+            </div>
         </div>
 
-        <div className='pt-4'>
-            I am a full-stack software engineer, and I love creating and building all sorts of things.
-        </div>
-
-        <div className='pt-4'>
-            From software, to things that are edible, to websites, to paintings, I love to bring things to life and to share them with the world around me.
-        </div>
-
-        <div className='pt-4'>
-            The stack that I've used with include .NET / C#, React + Redux, JavaScript, TypeScript, GraphQL.
-        </div>
-
-        <div className='pt-4 flex'>
-            Aside from code, I love to bake bread, cakes, loaves, buns, pizzas, and anything that could go into an oven! I also like to draw and paint!
-        </div>
-
-        <div className='pb-24'>
+        <div className='pb-24 text-xl'>
             <h1 className="text-2xl text-indigo-700 pt-24">
                 My journey to software engineering
             </h1>
