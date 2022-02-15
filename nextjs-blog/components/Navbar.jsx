@@ -36,7 +36,7 @@ export default function Navbar() {
             </div>
             <div className="px-8 hover:text-indigo-700 w-30">
                 <a
-                    href="Fadila Fidina Resume 2022 1.8.pdf"
+                    href="Fadila Fidina Resume 2022 2.0.pdf"
                     alt="alt text"
                     target="_blank"
                     rel="noopener noreferrer"

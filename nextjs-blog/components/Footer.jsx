@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function Navbar() {
     return (
 
-        <div className='px-48 pb-12 pt-24'>
+        <div className='px-48 pb-12 pt-12 bg-indigo-200'>
+            {/* <div className='px-48 pb-12 pt-12 bg-gradient-to-b from-violet-100 to-fuchia-100'> */}
             {/* Adapted from https://tailwind-elements.com/docs/standard/navigation/footer/ */}
             <footer class="text-center lg:text-left ">
                 <div class="flex justify-center items-center lg:justify-between">
                     <div class="mr-12 hidden lg:block">
-                        <span>Made with 🍞 by Dila.</span>
+                        <span>Made with <span aria-label='bread load emoji'>🍞</span> by Dila.</span>
                     </div>
                     <div class="flex justify-center">
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="mr-6 text-gray-700">
