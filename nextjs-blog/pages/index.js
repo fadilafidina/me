@@ -37,15 +37,15 @@ export default function Home() {
         </div>
 
         <div className='pt-4'>
-          Read a bit more about me <span className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'><Link href="/about">here</Link></span>.
+          Read a bit more about me <span className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'><Link href="/about">here</Link></span>.
         </div>
 
         <div className='pt-4'>
-          Aside from code, I love to <a href='https://www.instagram.com/matchadou/' className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>bake bread, cakes, loaves, buns, pizzas</a>, and anything that could go into an oven.
+          Aside from code, I love to <a href='https://www.instagram.com/matchadou/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>bake bread, cakes, loaves, buns, pizzas</a>, and anything that could go into an oven.
         </div>
 
         <div className='pt-4'>
-          I also like to <a href='https://www.instagram.com/dilajournals/' className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>draw and paint</a>!
+          I also like to <a href='https://www.instagram.com/dilajournals/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>draw and paint</a>!
         </div>
       </div>
 
@@ -73,9 +73,9 @@ export default function Home() {
 
         <div className='pt-4'>
           Catch me on <a href='mailto:fadilafidina@gmail.com'
-            className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>
+            className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>
             fadilafidina@gmail.com</a> or on
-          on <a href='https://www.linkedin.com/in/fadila-fidina/' className='text-indigo-500 underline decoration-dashed underline-offset-8 hover:decoration-wavy'>LinkedIn</a>.
+          on <a href='https://www.linkedin.com/in/fadila-fidina/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>LinkedIn</a>.
         </div>
 
         <div className='pt-4'>
