@@ -5,7 +5,7 @@ import Footer from './Footer'
 import meGif from '../public/images/memoji2.gif'
 import me from '../public/images/memoji.png'
 
-export const siteTitle = 'dila tries to code!'
+export const siteTitle = 'fadila fidina 🌸'
 
 export default function Layout({ children, home }) {
   return (
@@ -24,11 +24,11 @@ export default function Layout({ children, home }) {
             <Navbar />
 
 
-            <div className="min-h-screen grid justify-center px-6 sm:px-12 md:px-24 xl:px-48">
+            <div className="grid justify-center px-12 md:px-24 xl:px-48">
 
               <div className='py-1 text-gray-800'>
                 <h1 className="text-4xl font-bold">
-                  <div className='grid justify-center'>
+                  <div className='grid justify-center pt-12 smi:pt-24'>
                     <Image src={me} width={250} height={250} alt='memoji of Fadila'></Image>
                     {/* <Image src={meGif} alt='memoji of Fadila'></Image> */}
                   </div>
@@ -56,7 +56,7 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="px-6 sm:px-12 md:px-24 xl:px-48 text-gray-900 text-2xl min-h-screen" aria-label='main content'>
+          <div className="px-12 md:px-24 xl:px-48 text-gray-900 text-2xl md:max-h-min xl:min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
 
