@@ -10,7 +10,7 @@ i hope this inspires you to build your own site and to have fun!
 
 ## to start the app locally
 
-`yarn next run`
+`yarn next dev`
 
 ## to build
 
