@@ -14,7 +14,7 @@ export default function Home() {
       {/* <div className='min-h-screen'> */}
 
       {/******* ABOUT SECTION *******/}
-      <div className='pb-12 md:pb-12 xl:pb-36'>
+      <div className='pb-12 md:pb-12 xl:pb-24'>
 
         <h1 className="text-3xl text-indigo-700 pb-6">
           It is nice to see you.
@@ -51,7 +51,7 @@ export default function Home() {
 
       {/******* HI SECTION *******/}
 
-      <div className='py-12 md:py-24 xl:py-48'>
+      <div className='py-12 md:pb-24 xl:py-48'>
 
         <h1 className="text-3xl text-indigo-700 py-6">
           Please, say hi!

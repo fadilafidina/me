@@ -24,11 +24,11 @@ export default function Layout({ children, home }) {
             <Navbar />
 
 
-            <div className="grid justify-center px-12 md:px-24 xl:px-48">
+            <div className="grid justify-center px-12 md:px-24 xl:px-52">
 
-              <div className='py-1 text-gray-800'>
-                <h1 className="text-4xl font-bold">
-                  <div className='grid justify-center pt-12 smi:pt-24'>
+              <div className='py-1 text-gray-800 text-3xl md:text-4xl font-bold'>
+                <h1 className="">
+                  <div className='grid justify-center pt-24 smi:pt-24'>
                     <Image src={me} width={250} height={250} alt='memoji of Fadila'></Image>
                     {/* <Image src={meGif} alt='memoji of Fadila'></Image> */}
                   </div>
@@ -42,11 +42,7 @@ export default function Layout({ children, home }) {
 
                 </h1>
 
-                {/* <div className="text-sm pt-6">
-                  (They say my name has a nice ring to it.)
-                </div> */}
-
-                <div className="pt-6 text-4xl font-bold">
+                <div className="pt-6">
                   I am a full-stack software engineer.
                 </div>
               </div>
