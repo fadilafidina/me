@@ -12,11 +12,20 @@ export default function FirstPost() {
     </Head>
 
     <h1 className="text-3xl text-indigo-700">
-      A few select things I have worked on
+      A few things I have worked on
     </h1>
 
-    <p className='pt-4'>I've worked across a number of projects, both in development and also in the creative aspects. I hope to share with you here my work which I am most proud of, and you can be proud of me too.</p>
+    <p className='pt-4'>
+      I've worked across a number of projects, both in development and also in the creative aspects.
+      I hope to share with you here my work which I am most proud of, and you can be proud of me too.
+    </p>
 
+    <p className='pt-4'>
+      This page is under contruction and will be updated frequently.
+    </p>
+
+    {/* 
+    TODO: Add support for filtering by tags
     <ul class='py-8 uppercase font-bold text-sm'>
       <li class="transition ease-in-out delay-100 duration-300  inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full">
         personal
@@ -27,7 +36,7 @@ export default function FirstPost() {
       <li class="transition ease-in-out delay-100 duration-300 inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full">
         Creative
       </li>
-    </ul>
+    </ul> */}
 
     {/* https://daily-dev-tips.com/posts/setting-up-nextjs-with-tailwind-css/  */}
     {/* <div className="min-h-screen">
@@ -83,7 +92,7 @@ export default function FirstPost() {
           src={portfolioPng}
           alt="Screenshot of this"
         />
-        <div className="px-6 py-4">
+        <div className="p-12">
           <div className="font-bold text-xl mb-2">My personal website ❤️</div>
           <ul class='py-2 uppercase font-bold'>
             <li class="transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full">
@@ -106,25 +115,18 @@ export default function FirstPost() {
 
           <p className="text-grey-darker text-base my-2 pt-2">
             I researched the dark web to see how people are building their static sites and I saw a few options.
-            One was to use a static site generator, like Hugo, Gatsby or Jeykll, but then decided to settle with Next.JS.
+            One was to use a static site generator, like Hugo, Gatsby or Jeykll, but then decided to settle with Next.js.
           </p>
 
           <p className="text-grey-darker text-base my-2 pt-2">
-            Next.JS is ideal for me as I'm working on improving my React skills right now, so it will definitely help me flex my skills a bit.
-            Next.JS is also great at slowly learning more about Jamstack, since that's a whole new architecture of web apps that I have not worked with before.
+            Next.js is ideal for me as I'm working on improving my React skills right now, so it will definitely help me flex my skills a bit.
+            Next.js is also great at slowly learning more about Jamstack, since that's a whole new architecture of web apps that I have not worked with before.
             It's also great because I can easily plug this site later on to a headless CMS to display blog posts (keep an eye out for that).
             I also chose this to learn more about server-side rendering and its benefits.
           </p>
 
           <p className="text-grey-darker text-base my-2 pt-2">
-            Next.JS is ideal for me as I'm working on improving my React skills right now, so it will definitely help me flex my skills a bit.
-            Next.JS is also great at slowly learning more about Jamstack, since that's a whole new architecture of web apps that I have not worked with before.
-            It's also great because I can easily plug this site later on to a headless CMS to display blog posts (keep an eye out for that).
-            I also chose this to learn more about server-side rendering and its benefits.
-          </p>
-
-          <p className="text-grey-darker text-base my-2 pt-2">
-            I deployed the site using Vercel since it has out-of-the-box for Next.JS apps, which is very nice. Within a few clicks of connecting my repository across, every push to the main branch would go straight to production. Lovely.
+            I deployed the site using Vercel since it has out-of-the-box support for Next.js apps, which is very nice. Within a few clicks of connecting my repository across, every push to the main branch would go straight to production. Lovely.
           </p>
 
           <p className="text-grey-darker text-base my-2 pt-2">
@@ -148,7 +150,7 @@ export default function FirstPost() {
           src={browniesNoissue}
           alt="no issue paper"
         />
-        <div className="px-6 py-4">
+        <div className="p-12">
           <div className="font-bold text-xl mb-2">Noissue custom paper partnership ✨</div>
           <ul class='py-2 uppercase font-bold'>
             <li class="transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full">
@@ -166,7 +168,7 @@ export default function FirstPost() {
           </ul>
 
           <p className="text-grey-darker text-base my-2 pt-2">
-            A printing company Noissue contacted me to see if I was interested in creating my own food-safe custom paper for my side baking hobbies.
+            A printing company called Noissue contacted me to see if I was interested in creating my own food-safe custom paper for my side baking hobbies.
             I was delighted at the offer and jumped straight in to learn digital drawing and printing.
           </p>
           <p className="text-grey-darker text-base my-2 pt-2">
