@@ -1,10 +1,8 @@
 import Link from "next/link";
-import React, { useState } from "react";
-// import Resume from '../public/Fadila Fidina Resume 2022 1.8.pdf'
+import React from "react";
 
 export default function Navbar() {
     return (
-        // <div className="px-4 sticky top-0 z-50 bg-[url('../public/images/bg1.jpg')]">
         <div className='grid justify-center'>
             <div className="px-4 pt-7 text-lg flex flex-row">
                 <div className="text-center px-8 w-48 hover:text-indigo-600 hover:underline hover:underline-offset-4 hover:decoration-wavy">
@@ -14,7 +12,6 @@ export default function Navbar() {
                         </a>
                     </Link>
                 </div>
-                {/* <div className="px-8 hover:text-indigo-700 w-30"> */}
                 <div className="text-center px-8 w-48 hover:text-indigo-600 hover:underline hover:underline-offset-4 hover:decoration-wavy">
                     <Link href="/about">
                         <a>
@@ -26,13 +23,6 @@ export default function Navbar() {
                     <Link href="/projects">
                         <a>
                             projects 💻
-                        </a>
-                    </Link>
-                </div>
-                <div className="text-center px-8 w-48 hover:text-indigo-600 hover:underline hover:underline-offset-4 hover:decoration-wavy">
-                    <Link href="/creative-stuff">
-                        <a>
-                            other stuff 🍕
                         </a>
                     </Link>
                 </div>

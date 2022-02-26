@@ -1,13 +1,12 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
-import Navbar from '../components/Navbar'
 
 export default function FirstPost() {
     return <Layout>
         <Head>
             <title>about</title>
         </Head>
-        <div className='text-xl'>
+        <div className='text-base'>
             <h1 className="text-3xl text-indigo-700">
                 It is nice to see you.
             </h1>
@@ -33,10 +32,14 @@ export default function FirstPost() {
             </div>
         </div>
 
-        <div className='pb-24 text-xl'>
+        <div className='pb-24 text-base'>
             <h1 className="text-2xl text-indigo-700 pt-24">
                 My journey to software engineering
             </h1>
+
+            <h2 className="text-xl text-indigo-700 pt-8">
+                High school days
+            </h2>
 
             <div className='pt-4'>
                 When I was twelve, I discovered the wild side of the internet and signed myself up for a tumblr blog.
@@ -79,6 +82,10 @@ export default function FirstPost() {
             <div className='pt-4'>
                 We set up a website to promote our server called <span className='italic'>Blizzard</span> where we built custom Harry Potter spells to curse at each other. <span className='italic'>Are you seeing a pattern here?</span>
             </div>
+
+            <h2 className="text-xl text-indigo-700 pt-8">
+                University days
+            </h2>
 
             <div className='pt-4'>
                 High school ended, and it was time to pick a university course.

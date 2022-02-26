@@ -4,7 +4,6 @@ export default function Navbar() {
     return (
 
         <div className='px-48 pb-12 pt-12 bg-indigo-200'>
-            {/* <div className='px-48 pb-12 pt-12 bg-gradient-to-b from-violet-100 to-fuchia-100'> */}
             {/* Adapted from https://tailwind-elements.com/docs/standard/navigation/footer/ */}
             <footer class="text-center lg:text-left ">
                 <div class="flex justify-center items-center lg:justify-between">

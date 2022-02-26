@@ -9,10 +9,6 @@ export default function Home() {
       <Head>
         <title>{siteTitle}</title>
       </Head>
-      {/* <div className="h-14 bg-gradient-to-r from-violet-500 to-fuchsia-900"></div> */}
-
-      {/* <div className='min-h-screen'> */}
-
       {/******* ABOUT SECTION *******/}
       <div className='pb-12 md:pb-12 xl:pb-24'>
 
@@ -96,20 +92,6 @@ export default function Home() {
           Some cards...
         </div>
       </div> */}
-
-      {/******* PROJECTS SECTION *******/}
-      {/* <div className='py-96 text-xl'>
-        <h1 className="text-3xl font-bold">
-          Times where I'm proud of my creative self
-        </h1>
-
-        <div className='pt-4'>
-          Some cards...
-        </div>
-      </div> */}
-
-
-
     </Layout>
   )
 }
