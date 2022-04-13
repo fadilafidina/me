@@ -11,7 +11,7 @@ export default function CreativeStuff() {
             It is nice to see you.
         </h1>
         <div className='pt-4'>
-            Coming soon :-)
+            Coming soon :-) 
         </div>
     </Layout>
 }

@@ -47,40 +47,13 @@ export default function FirstPost() {
             </div>
 
             <div className='pt-4'>
-                I built my own themes, added snow effects over Christmas using vanilla JavaScript
+                I built my own themes, added snow effects over Christmas using JavaScript
                 and even embedded music players to my blog. <span className='italic'>(I know automated audio on a webpage is cringe nowadays)</span>.
             </div>
 
             <div className='pt-4'>
                 At fifteen, in my IST (Information, Software and Technology) class at high school, we had an assignment to create a web page out of pure HTML and CSS on any topic we wanted.
                 Obviously, I wrote about Harry Potter, and edited my webpage using Notepad. <span className='italic'> What is even an IDE?</span> I was so proud of my creation and was so ecstatic when I got (nearly) full marks.
-            </div>
-
-            <div className='pt-4'>
-                I even edited my own images and made GIFs using Adobe Photoshop
-                which I taught myself.
-            </div>
-
-            <div className='pt-4'>
-                I also created a webpage using Adobe Dreamweaver <span className='italic'>(remember that?) </span>
-                to sell fake musical instruments.
-            </div>
-
-            <div className='pt-4'>
-                I made an image map <span className='italic'>(wow, this is ancient stuff)</span> and proudly presented it on the home page.
-            </div>
-
-            <div className='pt-4'>
-                Not to mention that I did work experience in the IT department at the University of Sydney.
-            </div>
-
-            <div className='pt-4'>
-                A bunch of fifteen-year old's managed to set up a minecraft server on a black box, punching in one linux command at a time.
-
-            </div>
-
-            <div className='pt-4'>
-                We set up a website to promote our server called <span className='italic'>Blizzard</span> where we built custom Harry Potter spells to curse at each other. <span className='italic'>Are you seeing a pattern here?</span>
             </div>
 
             <h2 className="text-xl text-indigo-700 pt-8">
