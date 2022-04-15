@@ -8,7 +8,7 @@ export default function FirstPost() {
         </Head>
         <div className='text-base'>
             <h1 className="text-3xl text-indigo-700">
-                It is nice to see you.
+                It is nice to meet you.
             </h1>
 
             <div className='pt-4'>
@@ -24,7 +24,7 @@ export default function FirstPost() {
             </div>
 
             <div className='pt-4'>
-                The stack that I've used with include .NET / C#, React + Redux, JavaScript, TypeScript, GraphQL.
+                Technologies I've used include .NET / C#, React + Redux, JavaScript, TypeScript, GraphQL.
             </div>
 
             <div className='pt-4 flex'>
