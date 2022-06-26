@@ -21,7 +21,7 @@ export default function Home() {
         </div>
 
         <div className='pt-4'>
-          I am a <span className='text-indigo-500'>full-stack software engineer </span>, and I love creating and building all sorts of things.
+          I am a <span className='text-indigo-500'>full-stack software engineer</span>, and I love creating and building all sorts of things.
         </div>
 
         <div className='pt-4'>
@@ -54,22 +54,6 @@ export default function Home() {
         </h1>
 
         <div className='pt-4'>
-          Want to work with me? <br />
-        </div>
-
-        <div className='pt-4'>
-          Want to chat about software engineering? <br />
-        </div>
-
-        <div className='pt-4'>
-          Want to make a new friend? <br />
-        </div>
-
-        <div className='pt-4'>
-          Want my recommendations on the best bread recipe, or all of the above?
-        </div>
-
-        <div className='pt-4'>
           Catch me on <a href='mailto:fadilafidina@gmail.com'
             className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>
             fadilafidina@gmail.com</a> or on
@@ -79,19 +63,8 @@ export default function Home() {
         <div className='pt-4'>
           If you're in Sydney, maybe we can even catch up for a coffee :)
         </div>
-
       </div>
 
-      {/******* PROJECTS SECTION *******/}
-      {/* <div className='pt-96 text-xl'>
-        <h1 className="text-3xl font-bold">
-          Times where I wrote some code
-        </h1>
-
-        <div className='pt-4'>
-          Some cards...
-        </div>
-      </div> */}
     </Layout>
   )
 }
