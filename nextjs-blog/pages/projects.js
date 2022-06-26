@@ -123,7 +123,7 @@ export default function FirstPost() {
             Next.js is ideal for me as I'm working on improving my React skills right now, so it will definitely help me flex my skills a bit.
             Next.js is also great at slowly learning more about Jamstack, since that's a whole new architecture of web apps that I have not worked with before.
             It's also great because I can easily plug this site later on to a headless CMS to display blog posts (keep an eye out for that).
-            I also chose this to learn more about server-side rendering and its benefits.
+            I also chose this to learn more about server- rendering and its benefits.
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
@@ -169,7 +169,7 @@ export default function FirstPost() {
           </ul>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            A printing company called Noissue contacted me to see if I was interested in creating my own food-safe custom paper for my side baking hobbies.
+            A printing company called Noissue contacted me to see if I was interested in creating my own food-safe custom paper for my  baking hobbies.
             I was delighted at the offer and jumped straight in to learn digital drawing and printing.
           </p>
           <p className='text-grey-darker text-base my-2 pt-2'>
@@ -254,7 +254,7 @@ export default function FirstPost() {
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            The production side is available on the <a href='https://www.lanternpay.com/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'> HICAPS page  here</a>.
+            The production site is available on the <a href='https://www.lanternpay.com/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'> HICAPS page  here</a>.
           </p>
         </div>
       </div>
@@ -299,7 +299,7 @@ export default function FirstPost() {
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            The production side is available <a href='https://sourdghcalc.netlify.app/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>, and repo <a href='https://github.com/fadilafidina/sourdough-calculator' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>.
+            The production site is available <a href='https://sourdghcalc.netlify.app/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>, and repo <a href='https://github.com/fadilafidina/sourdough-calculator' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>.
           </p>
         </div>
       </div>
