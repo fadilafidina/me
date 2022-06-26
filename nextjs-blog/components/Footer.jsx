@@ -3,12 +3,12 @@ import React from "react";
 export default function Navbar() {
     return (
 
-        <div className='px-48 pb-12 pt-12 bg-indigo-200'>
+        <div className='px-48 pb-12 pt-12 bg-indigo-100'>
             {/* Adapted from https://tailwind-elements.com/docs/standard/navigation/footer/ */}
             <footer class="text-center lg:text-left ">
                 <div class="flex justify-center items-center lg:justify-between">
-                    <div class="mr-12 hidden lg:block">
-                        <span>Made with <span aria-label='bread load emoji'>🍞</span> by Dila.</span>
+                    <div class="mr-12 hidden lg:block text-gray-700">
+                        <span>Made with <span aria-label='revolving hearts emoji'>💞</span> by Dila.</span>
                     </div>
                     <div class="flex justify-center">
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="mr-6 text-gray-700">

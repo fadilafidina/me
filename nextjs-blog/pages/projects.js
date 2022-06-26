@@ -4,6 +4,7 @@ import Image from 'next/image'
 import portfolioPng from '../public/images/this-site.png'
 import browniesNoissue from '../public/images/brownies-noissue.JPG'
 import lpPortal from '../public/images/lp.png'
+import sourdoughCalc from '../public/images/sourdoughCalc.jpg'
 
 export default function FirstPost() {
   return <Layout>
@@ -208,7 +209,7 @@ export default function FirstPost() {
           />
         </div>
         <div className='p-12'>
-          <div className='font-bold text-xl mb-2'>LanternPay Portal (now HICAPS Digital Portal) 🧑‍⚕️💻</div>
+          <div className='font-bold text-xl mb-2'>LanternPay Portal (now HICAPS Digital Portal) 🧑‍⚕️ 💻</div>
           <ul class='py-2 uppercase font-bold'>
             <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
               react
@@ -228,7 +229,7 @@ export default function FirstPost() {
           </ul>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            This is the app that I spent a majority of my time working on at one of my companies.
+            This is the app that I spent a majority of my time working on at one of the companies I worked at.
           </p>
           <p className='text-grey-darker text-base my-2 pt-2'>
             I implemented whole full-stack features, from determining the feasibility of features, scoping, breaking down requirements into small chunks of work,
@@ -249,7 +250,7 @@ export default function FirstPost() {
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            I also advocated in tackling teh debt of the app - such as adding error handling, proper logging, and alerting of errors.
+            I also advocated in tackling the debt of the app - such as adding error handling, proper logging, and alerting of errors.
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
@@ -259,7 +260,49 @@ export default function FirstPost() {
       </div>
     </div>
 
+    {/* sourdough calc */}
+    <div className='flex min-h-screen justify-center items-center my-16'>
+      <div className='max-w-6xl rounded-lg overflow-hidden shadow-lg hover:shadow-indigo-500/40 my-2 justify-center'>
+        <div className='flex justify-center'>
+          <Image
+            src={sourdoughCalc}
+            alt="image of a web-based sourdough calculator"
+          />
+        </div>
+        <div className='p-12'>
+          <div className='font-bold text-xl mb-2'>Sourdough calculator 🍞 🧮</div>
+          <ul class='py-2 uppercase font-bold'>
+            <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
+              react
+            </li>
+            <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
+              javscript
+            </li>
+            <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
+              sourdough
+            </li>
+          </ul>
 
+          <p className='text-grey-darker text-base my-2 pt-2'>
+            This is the first app that I commited to working on to learn React (and a bit more JavaScript).
+          </p>
+          <p className='text-grey-darker text-base my-2 pt-2'>
+            I had no background to frontend development, so I decided that I will follow a tutorial, and then build my own little thing on the side.
+          </p>
 
+          <p className='text-grey-darker text-base my-2 pt-2'>
+            This is my experimental project that I play with when a new React feature comes out, like hooks, and practicing with React Testing Library.
+          </p>
+
+          <p className='text-grey-darker text-base my-2 pt-2'>
+            I was also slightly obsessed with sourdough baking at the time, hence me building a sourdough calculator.
+          </p>
+
+          <p className='text-grey-darker text-base my-2 pt-2'>
+            The production side is available <a href='https://sourdghcalc.netlify.app/' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>, and repo <a href='https://github.com/fadilafidina/sourdough-calculator' className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy'>here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
   </Layout>
 }
