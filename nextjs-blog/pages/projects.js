@@ -6,14 +6,14 @@ import browniesNoissue from '../public/images/brownies-noissue.JPG'
 import lpPortal from '../public/images/lp.png'
 import sourdoughCalc from '../public/images/sourdoughCalc.jpg'
 
-export default function FirstPost() {
+export default function Projects() {
   return <Layout>
     <Head>
       <title>projects</title>
     </Head>
 
     <h1 className='text-3xl text-indigo-700'>
-      A few things I have worked on
+      a few things I have worked on
     </h1>
 
     <p className='pt-4'>
@@ -135,7 +135,7 @@ export default function FirstPost() {
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>
-            The design and colours on this site reflect my personality and what it's like to hang out with me :)
+            Note: I am working on the mobile-friendly version, everything is very broken right now, so bear with me!
           </p>
 
           <p className='text-grey-darker text-base my-2 pt-2'>

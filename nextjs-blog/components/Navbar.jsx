@@ -27,6 +27,13 @@ export default function Navbar() {
                     </Link>
                 </div>
                 <div className="text-center px-8 w-48 hover:text-indigo-600 hover:underline hover:underline-offset-4 hover:decoration-wavy">
+                    <Link href="/stalk">
+                        <a>
+                            stalk me 😼
+                        </a>
+                    </Link>
+                </div>
+                {/* <div className="text-center px-8 w-48 hover:text-indigo-600 hover:underline hover:underline-offset-4 hover:decoration-wavy">
                     <a
                         href="Fadila Fidina Resume 2022 2.0.pdf"
                         alt="alt text"
@@ -34,7 +41,7 @@ export default function Navbar() {
                         rel="noopener noreferrer"
                     >resume 📄</a>
 
-                </div>
+                </div> */}
             </div>
         </div>
     )
