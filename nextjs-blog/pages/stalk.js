@@ -7,7 +7,7 @@ export default function StalkMe() {
       <title>stalk me!</title>
     </Head>
 
-    <h1 className='text-2xl text-indigo-700'>
+    <h1 className='text-lg text-indigo-700'>
       find me on the dark, dark web
     </h1>
 

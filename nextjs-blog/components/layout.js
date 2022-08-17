@@ -26,7 +26,7 @@ export default function Layout({ children, home }) {
                   <div className='grid justify-center pt-24 smi:pt-24'>
                     <Image src={me} width={250} height={250} alt='memoji of Fadila'></Image>
                   </div>
-                  <div>
+                  <div className='text-xl'>
                     Hi, I'm <span className='text-indigo-500 underline decoration-dashed underline-offset-4 hover:decoration-wavy decoration-gradient-to-r '>
                       Fadila Fidina
                     </span>! ✨
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="px-12 md:px-24 xl:px-48 text-gray-900 l:text-lg md:max-h-min xl:min-h-screen" aria-label='main content'>
+          <div className="px-12 md:px-24 xl:px-48 text-gray-900 l:text-lg text-base md:max-h-min xl:min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
 
@@ -52,7 +52,7 @@ export default function Layout({ children, home }) {
         : <>
           <Navbar />
           {/* <div className="py-24 px-48 text-gray-900 text-lg min-h-screen" aria-label='main content'> */}
-          <div className="l:py-24 l:px-48 md:px-24 py-12 px-8 text-gray-900 l:text-lg md:max-h-min xl:min-h-screen min-h-screen" aria-label='main content'>
+          <div className="l:py-24 l:px-48 md:px-24 py-12 px-8 text-gray-900 l:text-lg text-base md:max-h-min xl:min-h-screen min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
           <Footer />

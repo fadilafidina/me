@@ -16,7 +16,7 @@ export default function FirstPost() {
       }
     />
 
-    <h1 className="text-2xl font-bold underline">
+    <h1 className="text-lg font-bold underline">
       Hello world! Some changes to get a deployment going
     </h1>
     <h1>

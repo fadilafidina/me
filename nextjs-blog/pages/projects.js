@@ -12,7 +12,7 @@ export default function Projects() {
       <title>projects</title>
     </Head>
 
-    <h1 className='text-2xl text-indigo-700'>
+    <h1 className='text-lg text-indigo-700'>
       a few things I have worked on
     </h1>
 
@@ -32,8 +32,8 @@ export default function Projects() {
           alt='Screenshot of this'
         />
         <div className='p-12'>
-          <div className='font-bold text-xl mb-2'>my personal website ❤️</div>
-          <ul class='py-2 uppercase font-bold'>
+          <div className='font-bold text-lg mb-2'>my personal website ❤️</div>
+          <ul class='py-2 uppercase text-sm font-bold'>
             <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
               react
             </li>
@@ -90,7 +90,7 @@ export default function Projects() {
           alt='no issue paper'
         />
         <div className='p-12'>
-          <div className='font-bold text-xl mb-2'>noissue custom paper partnership ✨</div>
+          <div className='font-bold text-lg mb-2'>noissue custom paper partnership ✨</div>
           <ul class='py-2 uppercase font-bold'>
             <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
               procreate
@@ -147,7 +147,7 @@ export default function Projects() {
           />
         </div>
         <div className='p-12'>
-          <div className='font-bold text-xl mb-2'>LanternPay portal (now HICAPS digital portal) 🧑‍⚕️ 💻</div>
+          <div className='font-bold text-lg mb-2'>LanternPay portal (now HICAPS digital portal) 🧑‍⚕️ 💻</div>
           <ul class='py-2 uppercase font-bold'>
             <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
               react
@@ -208,7 +208,7 @@ export default function Projects() {
           />
         </div>
         <div className='p-12'>
-          <div className='font-bold text-xl mb-2'>sourdough calculator 🍞 🧮</div>
+          <div className='font-bold text-lg mb-2'>sourdough calculator 🍞 🧮</div>
           <ul class='py-2 uppercase font-bold'>
             <li class='transition ease-in-out delay-100 duration-300 text-xs inline-flex items-center leading-sm mr-2 px-3 py-1 bg-indigo-200 hover:bg-indigo-400 hover:text-slate-100 rounded-full'>
               react
