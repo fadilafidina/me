@@ -12,7 +12,7 @@ export default function Home() {
       {/******* ABOUT SECTION *******/}
       <div className='pb-12 md:pb-12 xl:pb-24'>
 
-        <h1 className="text-3xl text-indigo-700 pb-6">
+        <h1 className="text-2xl text-indigo-700 pb-6">
           it is nice to see you.
         </h1>
 
@@ -49,7 +49,7 @@ export default function Home() {
 
       <div className='py-12 md:pb-24 xl:py-48'>
 
-        <h1 className="text-3xl text-indigo-700 py-6">
+        <h1 className="text-2xl text-indigo-700 py-6">
           please, say hi!
         </h1>
 

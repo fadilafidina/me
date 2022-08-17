@@ -6,8 +6,8 @@ export default function FirstPost() {
         <Head>
             <title>about</title>
         </Head>
-        <div className='text-base'>
-            <h1 className="text-3xl text-indigo-700">
+        <div>
+            <h1 className="text-2xl text-indigo-700">
                 it is nice to meet you
             </h1>
 
@@ -37,8 +37,8 @@ export default function FirstPost() {
             </div>
         </div>
 
-        <div className='text-base pt-12'>
-            <h1 className="text-3xl text-indigo-700">
+        <div className='pt-12'>
+            <h1 className="text-2xl text-indigo-700">
                 faq
             </h1>
 

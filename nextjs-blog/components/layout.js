@@ -18,10 +18,10 @@ export default function Layout({ children, home }) {
       </Head>
       {home ?
         <>
-          <div className='min-h-screen text-2xl'>
+          <div className='min-h-screen xl:text-2xl text-lg'>
             <Navbar />
             <div className="grid justify-center px-12 md:px-24 xl:px-52">
-              <div className='py-1 text-gray-800 text-3xl md:text-4xl font-bold'>
+              <div className='py-1 text-gray-800 text-2xl md:text-4xl font-bold'>
                 <h1 className="">
                   <div className='grid justify-center pt-24 smi:pt-24'>
                     <Image src={me} width={250} height={250} alt='memoji of Fadila'></Image>
@@ -43,7 +43,7 @@ export default function Layout({ children, home }) {
 
           </div>
 
-          <div className="px-12 md:px-24 xl:px-48 text-gray-900 text-lg md:max-h-min xl:min-h-screen" aria-label='main content'>
+          <div className="px-12 md:px-24 xl:px-48 text-gray-900 l:text-lg text-sm md:max-h-min xl:min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
 
@@ -51,7 +51,8 @@ export default function Layout({ children, home }) {
         </>
         : <>
           <Navbar />
-          <div className="py-24 px-48 text-gray-900 text-lg min-h-screen" aria-label='main content'>
+          {/* <div className="py-24 px-48 text-gray-900 text-lg min-h-screen" aria-label='main content'> */}
+          <div className="l:py-24 l:px-48 md:px-24 py-12 px-8 text-gray-900 l:text-lg text-sm md:max-h-min xl:min-h-screen min-h-screen" aria-label='main content'>
             <main>{children}</main>
           </div>
           <Footer />
