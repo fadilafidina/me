@@ -10,6 +10,7 @@ module.exports = {
       'sans': ['Lato', 'ui-sans-serif', 'system-ui'],
     },
     fontSize: {
+      xs: ['12px', '16px'],
       sm: ['14px', '20px'],
       base: ['16px', '24px'],
       lg: ['24px', '28px'],
