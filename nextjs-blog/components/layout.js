@@ -18,8 +18,8 @@ export default function Layout({ children, home }) {
       </Head>
       {home ?
         <>
+          <Navbar />
           <div className='min-h-screen xl:text-2xl text-lg'>
-            <Navbar />
             <div className="grid justify-center px-12 md:px-24 xl:px-52">
               <div className='py-1 text-gray-800 text-2xl md:text-4xl font-bold'>
                 <h1 className="">
